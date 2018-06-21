@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="3.2.2">
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Middleware/CheckAdminUser.php">
+ <error line="6" column="1" severity="error" message="There must be one blank line after the last USE statement; 0 found;" source="PSR2.Namespaces.UseDeclaration.SpaceAfterLastUse"/>
+ <error line="20" column="9" severity="error" message="Expected 1 space after closing brace; newline found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="23" column="9" severity="error" message="Expected 1 space after closing brace; newline found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="24" column="9" severity="error" message="Expected 1 space(s) after ELSE keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="25" column="103" severity="error" message="Expected 1 space between comma and &quot;'level'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterComma"/>
+ <error line="25" column="125" severity="warning" message="Line exceeds 120 characters; contains 125 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Requests/EditProductRequest.php">
+ <error line="29" column="26" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+ <error line="33" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="34" column="9" severity="error" message="Language constructs must be followed by a single space; expected &quot;return [&quot; but found &quot;return[&quot;" source="Squiz.WhiteSpace.LanguageConstructSpacing.Incorrect"/>
+ <error line="37" column="32" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Requests/SignUpRequest.php">
+ <error line="28" column="29" severity="error" message="Expected 1 space between double arrow and &quot;'same:txtPassword'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterDoubleArrow"/>
+ <error line="28" column="31" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+ <error line="32" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="35" column="37" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Requests/AddProductRequest.php">
+ <error line="29" column="26" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+ <error line="32" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="33" column="9" severity="error" message="Language constructs must be followed by a single space; expected &quot;return [&quot; but found &quot;return[&quot;" source="Squiz.WhiteSpace.LanguageConstructSpacing.Incorrect"/>
+ <error line="38" column="32" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Requests/PaymentRequest.php">
+ <error line="29" column="33" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+ <error line="33" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="37" column="35" severity="error" message="Expected 1 space between &quot;'txt_sdt_kh.unique'&quot; and double arrow; 3 found" source="Framgia.Arrays.ArrayDeclaration.SpaceAfterComma"/>
+ <error line="38" column="41" severity="error" message="Expected 1 space between &quot;'txt_dia_chi_kh.required'&quot; and double arrow; 3 found" source="Framgia.Arrays.ArrayDeclaration.SpaceAfterComma"/>
+ <error line="38" column="44" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Requests/AddCategoryRequest.php">
+ <error line="27" column="28" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+ <error line="34" column="34" severity="error" message="Expected 1 space between &quot;'cate_name.unique'&quot; and double arrow; 3 found" source="Framgia.Arrays.ArrayDeclaration.SpaceAfterComma"/>
+ <error line="34" column="37" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Requests/ChangePasswordRequest.php">
+ <error line="32" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="33" column="9" severity="error" message="Language constructs must be followed by a single space; expected &quot;return [&quot; but found &quot;return[&quot;" source="Squiz.WhiteSpace.LanguageConstructSpacing.Incorrect"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Controllers/AdminController.php">
+ <error line="16" column="8" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="19" column="1" severity="error" message="There must be one blank line after the last USE statement; 0 found;" source="PSR2.Namespaces.UseDeclaration.SpaceAfterLastUse"/>
+ <error line="22" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="22" column="35" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="24" column="9" severity="error" message="Variable &quot;cout_bill&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="24" column="64" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="26" column="9" severity="error" message="Variable &quot;earned_today&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="26" column="54" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="28" column="9" severity="error" message="Variable &quot;user_today&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="28" column="65" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="30" column="46" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="30" column="66" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="30" column="81" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="31" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="33" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="33" column="35" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="35" column="52" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="36" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="38" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="38" column="62" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="39" column="9" severity="error" message="Variable &quot;product_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="41" column="9" severity="error" message="Variable &quot;product_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="42" column="9" severity="error" message="Variable &quot;product_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="43" column="9" severity="error" message="Variable &quot;product_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="44" column="9" severity="error" message="Variable &quot;product_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="45" column="9" severity="error" message="Variable &quot;product_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="46" column="9" severity="error" message="Variable &quot;product_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="47" column="9" severity="error" message="Variable &quot;product_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="48" column="9" severity="error" message="Variable &quot;product_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="50" column="9" severity="error" message="Variable &quot;product_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="51" column="73" severity="error" message="Expected 1 space between double arrow and &quot;'flashMessages'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceBeforeDoubleArrow"/>
+ <error line="51" column="73" severity="error" message="Expected 1 space between double arrow and &quot;'Th&#xEA;m m&#x1EDB;i s&#x1EA3;n ph&#x1EA9;m th&#xE0;nh c&#xF4;ng'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterDoubleArrow"/>
+ <error line="51" column="129" severity="warning" message="Line exceeds 120 characters; contains 129 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="52" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="54" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="54" column="36" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="55" column="9" severity="error" message="Variable &quot;product_list&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="55" column="45" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="55" column="52" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="55" column="65" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="56" column="53" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="57" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="59" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="59" column="41" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="60" column="9" severity="error" message="Variable &quot;delete_image&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="60" column="61" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="61" column="46" severity="error" message="Variable &quot;delete_image&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="63" column="74" severity="error" message="Expected 1 space between double arrow and &quot;'flashMessages'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceBeforeDoubleArrow"/>
+ <error line="63" column="74" severity="error" message="Expected 1 space between double arrow and &quot;'X&#xF3;a s&#x1EA3;n ph&#x1EA9;m th&#xE0;nh c&#xF4;ng'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterDoubleArrow"/>
+ <error line="63" column="125" severity="warning" message="Line exceeds 120 characters; contains 125 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="64" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="66" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="66" column="39" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="68" column="9" severity="error" message="Variable &quot;product_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="69" column="53" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="69" column="72" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="70" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="72" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="72" column="68" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="73" column="9" severity="error" message="Variable &quot;product_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="75" column="11" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 10" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="76" column="11" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 10" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="77" column="11" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 10" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="77" column="11" severity="error" message="Variable &quot;product_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="79" column="9" severity="error" message="Variable &quot;product_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="80" column="9" severity="error" message="Variable &quot;product_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="81" column="9" severity="error" message="Variable &quot;product_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="82" column="9" severity="error" message="Variable &quot;product_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="83" column="9" severity="error" message="Variable &quot;product_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="84" column="9" severity="error" message="Variable &quot;product_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="85" column="9" severity="error" message="Variable &quot;product_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="86" column="9" severity="error" message="Variable &quot;product_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="87" column="57" severity="error" message="Expected 1 space between double arrow and &quot;'flashMessages'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceBeforeDoubleArrow"/>
+ <error line="87" column="57" severity="error" message="Expected 1 space between double arrow and &quot;'S&#x1EED;a s&#x1EA3;n ph&#x1EA9;m th&#xE0;nh c&#xF4;ng'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterDoubleArrow"/>
+ <error line="87" column="109" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="88" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="90" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="90" column="32" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="91" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="91" column="5" severity="error" message="Variable &quot;cate_list&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="91" column="42" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="91" column="49" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="92" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="93" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="95" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="95" column="59" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="96" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="96" column="5" severity="error" message="Variable &quot;cate_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="97" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="97" column="5" severity="error" message="Variable &quot;cate_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="98" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="98" column="5" severity="error" message="Variable &quot;cate_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="99" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="99" column="5" severity="error" message="Variable &quot;cate_add&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="100" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="100" column="130" severity="warning" message="Line exceeds 120 characters; contains 130 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="101" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="103" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="103" column="53" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="104" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="104" column="7" severity="error" message="Variable &quot;cate_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="105" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="105" column="18" severity="error" message="&quot;array()&quot; function used. Use short array syntax, &quot;[]&quot;, instead." source="Framgia.Arrays.ArrayDeclaration.ShortArraySyntax"/>
+ <error line="106" column="19" severity="error" message="Variable &quot;cate_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="106" column="36" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="107" column="19" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+ <error line="107" column="19" severity="error" message="Variable &quot;cate_edit&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="109" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="110" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="110" column="4" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="112" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="112" column="49" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="113" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="114" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="114" column="7" severity="error" message="Variable &quot;cate_update&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="115" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="115" column="7" severity="error" message="Variable &quot;cate_update&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="116" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="116" column="7" severity="error" message="Variable &quot;cate_update&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="117" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="117" column="7" severity="error" message="Variable &quot;cate_update&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="118" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="118" column="133" severity="warning" message="Line exceeds 120 characters; contains 133 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="119" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="121" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="121" column="35" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="122" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="123" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="123" column="5" severity="error" message="Variable &quot;order_today&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="123" column="49" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="124" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="124" column="49" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="125" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="127" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="127" column="33" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="128" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="129" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="130" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="131" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="132" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="133" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="134" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="136" column="4" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="136" column="4" severity="error" message="Variable &quot;mo_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="136" column="61" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="137" column="4" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="137" column="4" severity="error" message="Variable &quot;tu_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="137" column="61" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="138" column="4" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="138" column="4" severity="error" message="Variable &quot;we_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="138" column="61" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="139" column="4" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="139" column="4" severity="error" message="Variable &quot;th_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="139" column="61" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="140" column="4" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="140" column="4" severity="error" message="Variable &quot;fr_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="140" column="61" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="141" column="4" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="141" column="4" severity="error" message="Variable &quot;sa_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="141" column="61" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="142" column="4" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="142" column="4" severity="error" message="Variable &quot;su_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="142" column="61" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="143" column="4" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="143" column="14" severity="error" message="&quot;array()&quot; function used. Use short array syntax, &quot;[]&quot;, instead." source="Framgia.Arrays.ArrayDeclaration.ShortArraySyntax"/>
+ <error line="144" column="29" severity="error" message="Variable &quot;mo_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="145" column="29" severity="error" message="Variable &quot;tu_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="146" column="29" severity="error" message="Variable &quot;we_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="147" column="29" severity="error" message="Variable &quot;th_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="148" column="29" severity="error" message="Variable &quot;fr_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="149" column="29" severity="error" message="Variable &quot;sa_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="150" column="29" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+ <error line="150" column="29" severity="error" message="Variable &quot;su_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="152" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="153" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="155" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="155" column="50" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="156" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="156" column="7" severity="error" message="Variable &quot;bill_details&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="156" column="50" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="157" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="157" column="7" severity="error" message="Variable &quot;bill_details&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="158" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="159" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="160" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="161" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="161" column="52" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="162" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="162" column="7" severity="error" message="Variable &quot;bill_update_status&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="163" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="163" column="7" severity="error" message="Variable &quot;bill_update_status&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="164" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="164" column="7" severity="error" message="Variable &quot;bill_update_status&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="165" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="166" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="169" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="169" column="37" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="170" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="171" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="172" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="172" column="7" severity="error" message="Variable &quot;this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="173" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="173" column="7" severity="error" message="Variable &quot;first_day_this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="174" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="175" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="177" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="177" column="7" severity="error" message="Variable &quot;today_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="177" column="68" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="178" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="178" column="7" severity="error" message="Variable &quot;today_sales&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="178" column="53" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="178" column="89" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="180" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="180" column="7" severity="error" message="Variable &quot;week_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="181" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="181" column="7" severity="error" message="Variable &quot;week_sales&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="181" column="53" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="181" column="130" severity="warning" message="Line exceeds 120 characters; contains 130 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="183" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="183" column="7" severity="error" message="Variable &quot;month_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="183" column="71" severity="error" message="Variable &quot;this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="184" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="184" column="7" severity="error" message="Variable &quot;month_sales&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="184" column="53" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="184" column="92" severity="error" message="Variable &quot;this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="184" column="121" severity="warning" message="Line exceeds 120 characters; contains 121 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="186" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="186" column="7" severity="error" message="Variable &quot;today_best_sale&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="188" column="1" severity="warning" message="Line exceeds 120 characters; contains 152 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="194" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="194" column="7" severity="error" message="Variable &quot;week_best_sales&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="196" column="1" severity="warning" message="Line exceeds 120 characters; contains 152 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="202" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="202" column="7" severity="error" message="Variable &quot;month_best_sales&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="204" column="1" severity="warning" message="Line exceeds 120 characters; contains 152 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="205" column="1" severity="error" message="Variable &quot;first_day_this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="211" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="211" column="48" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="211" column="70" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="211" column="84" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="211" column="97" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="211" column="110" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="211" column="124" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="211" column="157" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="211" column="175" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="211" column="196" severity="warning" message="Line exceeds 120 characters; contains 196 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="212" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="214" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="214" column="34" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="215" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="216" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="217" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="217" column="7" severity="error" message="Variable &quot;oders_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="218" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="219" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="221" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="221" column="35" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="222" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="222" column="7" severity="error" message="Variable &quot;this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="223" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="223" column="7" severity="error" message="Variable &quot;oders_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="223" column="53" severity="error" message="Variable &quot;this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="224" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="224" column="50" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="225" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="227" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="227" column="58" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="228" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="228" column="7" severity="error" message="Variable &quot;start_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="229" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="229" column="7" severity="error" message="Variable &quot;end_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="230" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="230" column="7" severity="error" message="Variable &quot;oders_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="230" column="56" severity="error" message="Variable &quot;start_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="230" column="69" severity="error" message="Variable &quot;end_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="231" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="232" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="234" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="234" column="40" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="235" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="235" column="5" severity="error" message="Variable &quot;oders_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="236" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="237" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="238" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="238" column="38" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="239" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="240" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="241" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="241" column="5" severity="error" message="Variable &quot;oders_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="242" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="243" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="244" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="244" column="32" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="245" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="246" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="247" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="247" column="7" severity="error" message="Variable &quot;oders_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="248" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="248" column="50" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="249" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="250" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="250" column="39" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="251" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="251" column="7" severity="error" message="Variable &quot;this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="252" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="252" column="7" severity="error" message="Variable &quot;oders_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="252" column="53" severity="error" message="Variable &quot;this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="253" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="253" column="50" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="254" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="255" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="255" column="33" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="256" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="256" column="7" severity="error" message="Variable &quot;this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="257" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="257" column="7" severity="error" message="Variable &quot;oders_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="257" column="53" severity="error" message="Variable &quot;this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="258" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="258" column="50" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="259" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="260" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="260" column="58" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="261" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="261" column="7" severity="error" message="Variable &quot;start_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="262" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="262" column="7" severity="error" message="Variable &quot;end_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="263" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="263" column="7" severity="error" message="Variable &quot;oders_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="263" column="56" severity="error" message="Variable &quot;start_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="263" column="69" severity="error" message="Variable &quot;end_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="264" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="265" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="266" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="266" column="52" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="267" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="267" column="7" severity="error" message="Variable &quot;start_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="268" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="268" column="7" severity="error" message="Variable &quot;end_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="269" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="269" column="7" severity="error" message="Variable &quot;oders_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="269" column="56" severity="error" message="Variable &quot;start_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="269" column="69" severity="error" message="Variable &quot;end_date&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="270" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="271" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="273" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="273" column="37" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="273" column="38" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="274" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="275" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="276" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="276" column="5" severity="error" message="Variable &quot;first_day_this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="277" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="277" column="5" severity="error" message="Variable &quot;month_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="284" column="1" severity="error" message="Variable &quot;first_day_this_month&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="288" column="7" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="288" column="24" severity="error" message="Variable &quot;month_data&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="289" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="291" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="291" column="37" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="292" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="293" column="5" severity="error" message="Line indented incorrectly; expected 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="294" column="7" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="295" column="7" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="295" column="14" severity="error" message="String &quot;deleted&quot; does not require double quotes; use single quotes instead" source="Framgia.Strings.DoubleQuoteUsage.NotRequired"/>
+ <error line="296" column="5" severity="error" message="Line indented incorrectly; expected 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="296" column="5" severity="error" message="Expected 1 space after closing brace; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="296" column="6" severity="error" message="Expected 1 space(s) after ELSE keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="297" column="7" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="298" column="5" severity="error" message="Line indented incorrectly; expected 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="299" column="3" severity="error" message="Line indented incorrectly; expected 4 spaces, found 2" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="301" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+ <error line="301" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Controllers/PageController.php">
+ <error line="8" column="1" severity="error" message="There must be one USE keyword per declaration" source="PSR2.Namespaces.UseDeclaration.MultipleDeclarations"/>
+ <error line="14" column="1" severity="error" message="There must be one blank line after the last USE statement; 0 found;" source="PSR2.Namespaces.UseDeclaration.SpaceAfterLastUse"/>
+ <error line="17" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="17" column="35" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="18" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="18" column="36" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="19" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="19" column="41" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="19" column="48" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="19" column="56" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="19" column="69" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="19" column="101" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="20" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="20" column="9" severity="error" message="Variable &quot;promotion_products&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="20" column="51" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="20" column="58" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="20" column="66" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="20" column="79" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="20" column="123" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="20" column="128" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="20" column="143" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="20" column="149" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="20" column="158" severity="warning" message="Line exceeds 120 characters; contains 158 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="21" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="21" column="37" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="21" column="53" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="21" column="64" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="22" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="24" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="24" column="40" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="25" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="25" column="9" severity="error" message="Variable &quot;promotion_products_collect&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="25" column="59" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="25" column="66" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="25" column="74" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="25" column="87" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="25" column="131" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="25" column="136" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="25" column="146" severity="warning" message="Line exceeds 120 characters; contains 146 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="26" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="26" column="9" severity="error" message="Variable &quot;promotion_products&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="26" column="31" severity="error" message="Variable &quot;promotion_products_collect&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="27" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="27" column="9" severity="error" message="Variable &quot;products_new&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="27" column="45" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="27" column="52" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="27" column="60" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="27" column="73" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="27" column="105" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="27" column="124" severity="warning" message="Line exceeds 120 characters; contains 124 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="28" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="28" column="9" severity="error" message="Variable &quot;product_details&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="28" column="54" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="29" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="29" column="52" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="29" column="53" severity="error" message="Variable &quot;product_details&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="29" column="91" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="29" column="96" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="29" column="97" severity="error" message="Variable &quot;product_details&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="30" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="30" column="9" severity="error" message="Variable &quot;product_ramdom&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="31" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="31" column="36" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="31" column="62" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="31" column="79" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="31" column="100" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="32" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="34" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="34" column="44" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="35" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="35" column="9" severity="error" message="Variable &quot;product_types_promo&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="35" column="52" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="35" column="59" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="35" column="67" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="35" column="80" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="36" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="37" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="37" column="40" severity="error" message="Comma required after last value in array declaration" source="Framgia.Arrays.ArrayDeclaration.NoCommaAfterLast"/>
+ <error line="38" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="39" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="40" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="40" column="9" severity="error" message="Variable &quot;product_types_new&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="40" column="50" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="40" column="57" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="40" column="65" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="40" column="78" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="41" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="42" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="42" column="28" severity="error" message="Comma required after last value in array declaration" source="Framgia.Arrays.ArrayDeclaration.NoCommaAfterLast"/>
+ <error line="43" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="44" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="45" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="45" column="41" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="45" column="71" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="46" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="48" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="48" column="36" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="49" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="50" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="52" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="52" column="39" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="53" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="54" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="56" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="56" column="32" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="57" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="58" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="60" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="60" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="61" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="62" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="64" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="64" column="32" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="65" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="66" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="67" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="69" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="69" column="55" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="70" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="71" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="72" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="73" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="74" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="75" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="76" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="77" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="78" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="79" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="79" column="63" severity="error" message="Expected 1 space between double arrow and &quot;'messages'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceBeforeDoubleArrow"/>
+ <error line="79" column="63" severity="error" message="Expected 1 space between double arrow and &quot;'Register successfull'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterDoubleArrow"/>
+ <error line="79" column="87" severity="error" message="Expected 1 space between comma and &quot;'level'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterComma"/>
+ <error line="80" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="82" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="82" column="48" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="83" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="84" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="84" column="47" severity="error" message="Expected 0 spaces before closing bracket; 1 found" source="PSR2.ControlStructures.ControlStructureSpacing.SpaceBeforeCloseBrace"/>
+ <error line="85" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="86" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="86" column="13" severity="error" message="Expected 1 space after closing brace; newline found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="87" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="87" column="13" severity="error" message="Expected 1 space(s) after ELSE keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="88" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="89" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="90" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="90" column="9" severity="error" message="Expected 1 space after closing brace; newline found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="91" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="91" column="9" severity="error" message="Expected 1 space(s) after ELSE keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="92" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="92" column="56" severity="error" message="Expected 1 space between double arrow and &quot;'messages'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceBeforeDoubleArrow"/>
+ <error line="92" column="56" severity="error" message="Expected 1 space between double arrow and &quot;'Sai th&#xF4;ng tin &#x111;&#x103;ng nh&#x1EAD;p !'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterDoubleArrow"/>
+ <error line="92" column="85" severity="error" message="Expected 1 space between comma and &quot;'level'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterComma"/>
+ <error line="92" column="93" severity="error" message="Expected 1 space between double arrow and &quot;'level'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceBeforeDoubleArrow"/>
+ <error line="92" column="93" severity="error" message="Expected 1 space between double arrow and &quot;'danger'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterDoubleArrow"/>
+ <error line="93" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="94" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="96" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="96" column="49" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="97" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="97" column="43" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="97" column="65" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="97" column="72" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="98" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="99" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="101" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="101" column="37" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="102" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="102" column="9" severity="error" message="Variable &quot;order_today&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="103" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="103" column="9" severity="error" message="Variable &quot;user_infor&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="103" column="39" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="104" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="104" column="36" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="104" column="58" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="105" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="107" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="107" column="51" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="108" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="108" column="9" severity="error" message="Variable &quot;edit_user&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="109" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="109" column="9" severity="error" message="Variable &quot;edit_user&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="110" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="110" column="9" severity="error" message="Variable &quot;edit_user&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="111" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="111" column="9" severity="error" message="Variable &quot;edit_user&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="112" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="112" column="9" severity="error" message="Variable &quot;edit_user&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="113" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="114" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="114" column="13" severity="error" message="Variable &quot;edit_user&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="115" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="115" column="139" severity="warning" message="Line exceeds 120 characters; contains 139 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="116" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="116" column="9" severity="error" message="Expected 1 space after closing brace; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="116" column="10" severity="error" message="Expected 1 space(s) after ELSE keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="117" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="117" column="133" severity="warning" message="Line exceeds 120 characters; contains 133 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="118" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="119" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="121" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="121" column="71" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="122" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="122" column="9" severity="error" message="Variable &quot;edit_pass&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="123" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="124" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="124" column="13" severity="error" message="Variable &quot;edit_pass&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="125" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="125" column="13" severity="error" message="Variable &quot;edit_pass&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="126" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="126" column="138" severity="warning" message="Line exceeds 120 characters; contains 138 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="127" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="127" column="9" severity="error" message="Expected 1 space after closing brace; newline found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="127" column="10" severity="error" message="Spaces must be used for alignment; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.NonIndentTabsUsed"/>
+ <error line="127" column="10" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="128" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="128" column="9" severity="error" message="Expected 1 space(s) after ELSE keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="129" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="129" column="142" severity="warning" message="Line exceeds 120 characters; contains 142 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="130" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="131" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="133" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="133" column="54" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="134" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="134" column="9" severity="error" message="Variable &quot;chage_avata&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="135" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="135" column="9" severity="error" message="Variable &quot;new_avata&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="136" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="136" column="9" severity="error" message="Variable &quot;chage_avata&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="136" column="31" severity="error" message="Variable &quot;new_avata&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="137" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="137" column="76" severity="error" message="Variable &quot;new_avata&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="138" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="138" column="9" severity="error" message="Variable &quot;chage_avata&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="139" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="139" column="131" severity="warning" message="Line exceeds 120 characters; contains 131 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="140" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="140" column="6" severity="error" message="Spaces must be used for alignment; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.NonIndentTabsUsed"/>
+ <error line="140" column="6" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Controllers/CartController.php">
+ <error line="22" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="22" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="23" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="23" column="9" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="24" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="24" column="9" severity="error" message="Variable &quot;cart_number&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="25" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="25" column="9" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="26" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="26" column="9" severity="error" message="Expected 1 space after &quot;as&quot;; 2 found" source="Squiz.ControlStructures.ForEachLoopDeclaration.SpacingAfterAs"/>
+ <error line="26" column="18" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="27" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="27" column="13" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="28" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="29" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="29" column="37" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="29" column="60" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="29" column="74" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="30" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="31" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="32" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="32" column="46" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="33" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="33" column="9" severity="error" message="Variable &quot;item_id&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="34" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="34" column="37" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="34" column="44" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="34" column="57" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="34" column="78" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="34" column="79" severity="error" message="Variable &quot;item_id&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="35" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="35" column="28" severity="error" message="Variable &quot;item_id&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="35" column="36" severity="error" message="Expected 1 space between comma and &quot;'name'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterComma"/>
+ <error line="35" column="58" severity="error" message="Expected 1 space between comma and &quot;'qty'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterComma"/>
+ <error line="35" column="69" severity="error" message="Expected 1 space between comma and &quot;'price'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterComma"/>
+ <error line="35" column="98" severity="error" message="Expected 1 space between comma and &quot;'options'&quot;; 0 found" source="Framgia.Arrays.ArrayDeclaration.NoSpaceAfterComma"/>
+ <error line="35" column="140" severity="warning" message="Line exceeds 120 characters; contains 140 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="36" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="37" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="38" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="39" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="39" column="49" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="40" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="40" column="9" severity="error" message="Variable &quot;item_remove_id&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="41" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="41" column="22" severity="error" message="Variable &quot;item_remove_id&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="42" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="43" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="44" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="44" column="9" severity="error" message="Expected 1 space after closing brace; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="44" column="10" severity="error" message="Expected 1 space(s) after ELSE keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="45" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="46" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="46" column="13" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="47" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="47" column="13" severity="error" message="Variable &quot;cart_number&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="48" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="48" column="13" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="49" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="49" column="13" severity="error" message="Expected 1 space after &quot;as&quot;; 2 found" source="Squiz.ControlStructures.ForEachLoopDeclaration.SpacingAfterAs"/>
+ <error line="49" column="22" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="50" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="50" column="17" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="51" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="52" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="52" column="32" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="53" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="54" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="55" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="56" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="56" column="53" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="57" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="57" column="9" severity="error" message="Variable &quot;item_update_id&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="58" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="58" column="9" severity="error" message="Variable &quot;item_update_qty&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="59" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="59" column="22" severity="error" message="Variable &quot;item_update_id&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="59" column="39" severity="error" message="Variable &quot;item_update_qty&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="60" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="61" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="61" column="9" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="62" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="62" column="9" severity="error" message="Variable &quot;cart_number&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="63" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="63" column="9" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="64" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="64" column="9" severity="error" message="Variable &quot;item_price_update&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="65" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="65" column="9" severity="error" message="Expected 1 space after &quot;as&quot;; 2 found" source="Squiz.ControlStructures.ForEachLoopDeclaration.SpacingAfterAs"/>
+ <error line="65" column="18" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="66" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="66" column="13" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="67" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="67" column="33" severity="error" message="Variable &quot;item_update_id&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="68" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="68" column="17" severity="error" message="Variable &quot;item_price_update&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="69" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="70" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="71" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="71" column="19" severity="error" message="&quot;array()&quot; function used. Use short array syntax, &quot;[]&quot;, instead." source="Framgia.Arrays.ArrayDeclaration.ShortArraySyntax"/>
+ <error line="72" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="72" column="54" severity="error" message="Variable &quot;item_price_update&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="73" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="73" column="40" severity="error" message="Each line in an array declaration must end in a comma" source="Framgia.Arrays.ArrayDeclaration.NoComma"/>
+ <error line="73" column="54" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="74" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="75" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="76" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="78" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="79" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="79" column="57" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="80" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="81" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="82" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="83" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="84" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="85" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="86" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="87" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="88" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="91" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="92" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="92" column="9" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="93" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="93" column="9" severity="error" message="Variable &quot;cart_number&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="94" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="94" column="9" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="95" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="95" column="9" severity="error" message="Expected 1 space after &quot;as&quot;; 2 found" source="Squiz.ControlStructures.ForEachLoopDeclaration.SpacingAfterAs"/>
+ <error line="95" column="18" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="96" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="96" column="13" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="97" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="99" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="100" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="101" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="102" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="103" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="103" column="24" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="104" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="105" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="106" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="108" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="110" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="110" column="18" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="111" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="111" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="112" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="112" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="113" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="113" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="114" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="114" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="115" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="115" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="116" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="116" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="117" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="119" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="119" column="18" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="119" column="35" severity="error" message="Variable &quot;item_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="120" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="120" column="29" severity="error" message="Variable &quot;item_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="120" column="58" severity="error" message="Variable &quot;item_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="120" column="100" severity="error" message="Variable &quot;item_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="120" column="134" severity="warning" message="Line exceeds 120 characters; contains 134 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="121" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="123" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="124" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="125" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="125" column="56" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="126" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="127" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="128" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="129" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="130" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="131" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="132" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="134" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="134" column="54" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="135" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="136" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="137" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="137" column="9" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="138" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="138" column="9" severity="error" message="Variable &quot;cart_number&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="139" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="139" column="9" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="140" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="140" column="9" severity="error" message="Expected 1 space after &quot;as&quot;; 2 found" source="Squiz.ControlStructures.ForEachLoopDeclaration.SpacingAfterAs"/>
+ <error line="140" column="18" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="141" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="141" column="13" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="142" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="143" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="144" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="145" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="146" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="146" column="24" severity="error" message="Variable &quot;cart_total&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="147" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="148" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="149" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="150" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="152" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="152" column="18" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="153" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="153" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="154" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="154" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="155" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="155" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="156" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="156" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="157" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="157" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="158" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="158" column="13" severity="error" message="Variable &quot;bill_detail&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="159" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="160" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="160" column="18" severity="error" message="Variable &quot;cart_content&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="160" column="35" severity="error" message="Variable &quot;item_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="161" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="161" column="29" severity="error" message="Variable &quot;item_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="161" column="58" severity="error" message="Variable &quot;item_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="161" column="100" severity="error" message="Variable &quot;item_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="161" column="134" severity="warning" message="Line exceeds 120 characters; contains 134 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="162" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="163" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="164" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="165" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="165" column="52" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="166" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="167" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="168" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="169" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="170" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="171" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="173" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="173" column="46" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="173" column="46" severity="error" message="Expected 0 blank lines after opening function brace; 1 found" source="Squiz.WhiteSpace.FunctionOpeningBraceSpace.SpacingAfter"/>
+ <error line="175" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="176" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="177" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="178" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="179" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="180" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="181" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Http/Controllers/SendMailController.php">
+ <error line="14" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="14" column="37" severity="error" message="Variable &quot;user_id&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="14" column="46" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="15" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="15" column="32" severity="error" message="Variable &quot;user_id&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="16" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="16" column="48" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="17" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="18" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Listeners/sendMailConfirmOrder.php">
+ <error line="12" column="1" severity="error" message="Class name &quot;sendMailConfirmOrder&quot; is not in camel caps format" source="Squiz.Classes.ValidClassName.NotCamelCaps"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/BillDetail.php">
+ <error line="9" column="24" severity="error" message="String &quot;bill_detail&quot; does not require double quotes; use single quotes instead" source="Framgia.Strings.DoubleQuoteUsage.NotRequired"/>
+ <error line="11" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="12" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="12" column="46" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="12" column="59" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="15" column="28" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="16" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="16" column="44" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="16" column="54" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Bills.php">
+ <error line="9" column="24" severity="error" message="String &quot;bills&quot; does not require double quotes; use single quotes instead" source="Framgia.Strings.DoubleQuoteUsage.NotRequired"/>
+ <error line="10" column="12" severity="error" message="Method name &quot;Bills::bill_detail&quot; is not in camel caps format" source="PSR1.Methods.CamelCapsMethodName.NotCamelCaps"/>
+ <error line="10" column="34" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="11" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="11" column="47" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="11" column="57" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="14" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="15" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="15" column="47" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="15" column="61" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="18" column="27" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="19" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="22" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/User.php">
+ <error line="18" column="22" severity="error" message="Each value in a multi-line array must be on a new line" source="Framgia.Arrays.ArrayDeclaration.ValueNoNewline"/>
+ <error line="18" column="31" severity="error" message="Each value in a multi-line array must be on a new line" source="Framgia.Arrays.ArrayDeclaration.ValueNoNewline"/>
+ <error line="18" column="42" severity="error" message="Each value in a multi-line array must be on a new line" source="Framgia.Arrays.ArrayDeclaration.ValueNoNewline"/>
+ <error line="18" column="50" severity="error" message="Each value in a multi-line array must be on a new line" source="Framgia.Arrays.ArrayDeclaration.ValueNoNewline"/>
+ <error line="18" column="60" severity="error" message="Comma required after last value in array declaration" source="Framgia.Arrays.ArrayDeclaration.NoCommaAfterLast"/>
+ <error line="27" column="21" severity="error" message="Each value in a multi-line array must be on a new line" source="Framgia.Arrays.ArrayDeclaration.ValueNoNewline"/>
+ <error line="30" column="28" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Mail/ReportFailerMail.php">
+ <error line="24" column="5" severity="error" message="Function closing brace must go on the next line following the body; found 1 blank lines before brace" source="PSR2.Methods.FunctionClosingBrace.SpacingBeforeClose"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/ProductType.php">
+ <error line="9" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="9" column="23" severity="error" message="String &quot;type_products&quot; does not require double quotes; use single quotes instead" source="Framgia.Strings.DoubleQuoteUsage.NotRequired"/>
+ <error line="10" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="10" column="30" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="11" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="11" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="11" column="40" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="11" column="50" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="12" column="4" severity="error" message="Line indented incorrectly; expected 4 spaces, found 3" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Providers/AppServiceProvider.php">
+ <error line="8" column="1" severity="error" message="There must be one blank line after the last USE statement; 0 found;" source="PSR2.Namespaces.UseDeclaration.SpaceAfterLastUse"/>
+ <error line="18" column="39" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="18" column="40" severity="error" message="Expected 1 space after FUNCTION keyword; 0 found" source="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction"/>
+ <error line="18" column="54" severity="error" message="Expected 1 space before opening brace; found 0" source="Squiz.Functions.MultiLineFunctionDeclaration.SpaceBeforeBrace"/>
+ <error line="20" column="44" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Customer.php">
+ <error line="10" column="28" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="11" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="11" column="42" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="11" column="56" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Events/customerOrder.php">
+ <error line="15" column="1" severity="error" message="Class name &quot;customerOrder&quot; is not in camel caps format" source="Squiz.Classes.ValidClassName.NotCamelCaps"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Slide.php">
+ <error line="9" column="24" severity="error" message="String &quot;slide&quot; does not require double quotes; use single quotes instead" source="Framgia.Strings.DoubleQuoteUsage.NotRequired"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Product.php">
+ <error line="9" column="24" severity="error" message="String &quot;products&quot; does not require double quotes; use single quotes instead" source="Framgia.Strings.DoubleQuoteUsage.NotRequired"/>
+ <error line="11" column="12" severity="error" message="Method name &quot;Product::type_products&quot; is not in camel caps format" source="PSR1.Methods.CamelCapsMethodName.NotCamelCaps"/>
+ <error line="11" column="36" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="12" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="12" column="50" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="12" column="60" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="15" column="12" severity="error" message="Method name &quot;Product::bill_detail&quot; is not in camel caps format" source="PSR1.Methods.CamelCapsMethodName.NotCamelCaps"/>
+ <error line="15" column="34" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="16" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="16" column="47" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="16" column="60" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+</file>
+<file name="/home/dang.minh.truong/Documents/projects/Laravel/laravel_sample/app/Customize/functions.php">
+ <error line="1" column="1" severity="warning" message="A file should declare new symbols (classes, functions, constants, etc.) and cause no other side effects, or it should execute logic with side effects, but should not do both. The first symbol is defined on line 2 and the first side effect is on line 1." source="PSR1.Files.SideEffects.FoundWithSymbols"/>
+ <error line="2" column="1" severity="error" message="Line indented incorrectly; expected 1 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="2" column="25" severity="error" message="Variable &quot;bill_today&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="3" column="1" severity="error" message="Line indented incorrectly; expected at least 1 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="3" column="2" severity="error" message="Spaces must be used for alignment; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.NonIndentTabsUsed"/>
+ <error line="3" column="2" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="4" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="4" column="5" severity="error" message="Line indented incorrectly; expected at least 5 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="4" column="5" severity="error" message="Variable &quot;bill_details&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="4" column="58" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="4" column="71" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="4" column="82" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="4" column="113" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="4" column="114" severity="error" message="Variable &quot;bill_today&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="4" column="137" severity="warning" message="Line exceeds 120 characters; contains 137 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="5" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="5" column="5" severity="error" message="Line indented incorrectly; expected 5 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="5" column="14" severity="error" message="Variable &quot;bill_details&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="6" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="6" column="9" severity="error" message="Line indented incorrectly; expected at least 9 spaces, found 8" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="6" column="54" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="6" column="74" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+ <error line="7" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="7" column="13" severity="error" message="Line indented incorrectly; expected 9 spaces, found 12" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="8" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="9" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="10" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="10" column="5" severity="error" message="Line indented incorrectly; expected 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="10" column="6" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="11" column="1" severity="error" message="Line indented incorrectly; expected 4 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="13" column="1" severity="error" message="Line indented incorrectly; expected 4 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="13" column="26" severity="error" message="Variable &quot;bill_today&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="13" column="38" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="14" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="14" column="5" severity="error" message="Line indented incorrectly; expected 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="14" column="9" severity="error" message="Variable &quot;bill_today&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="14" column="41" severity="error" message="Expected 0 spaces before closing bracket; 1 found" source="PSR2.ControlStructures.ControlStructureSpacing.SpaceBeforeCloseBrace"/>
+ <error line="15" column="7" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="15" column="7" severity="error" message="Variable &quot;customer_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="15" column="52" severity="error" message="Variable &quot;bill_today&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="16" column="7" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="16" column="23" severity="error" message="Variable &quot;customer_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="17" column="7" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="17" column="24" severity="error" message="Variable &quot;customer_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="18" column="5" severity="error" message="Line indented incorrectly; expected 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="18" column="5" severity="error" message="Expected 1 space after closing brace; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+ <error line="18" column="6" severity="error" message="Expected 1 space(s) after ELSE keyword; 0 found" source="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+ <error line="19" column="7" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="19" column="7" severity="error" message="Variable &quot;customer_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="19" column="49" severity="error" message="Variable &quot;bill_today&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="20" column="7" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="20" column="23" severity="error" message="Variable &quot;customer_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="21" column="7" severity="error" message="Line indented incorrectly; expected at least 12 spaces, found 6" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="21" column="24" severity="error" message="Variable &quot;customer_info&quot; is not in valid camel caps format" source="Framgia.Variables.ValidVariableName.NotCamelCaps"/>
+ <error line="22" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="22" column="5" severity="error" message="Line indented incorrectly; expected 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+ <error line="23" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+ <error line="23" column="1" severity="error" message="Line indented incorrectly; expected 4 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.IncorrectExact"/>
+</file>
+</checkstyle>
+
