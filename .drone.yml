@@ -18,10 +18,3 @@ cache:
   mount:
     - .git
     - vendor
-deploy:
-  rocketeer:
-    image: fdplugins/ssh-php:php5
-    when:
-      branch: master
-    commands:
-      - php rocketeer.phar deploy --on=staging --no-interaction
